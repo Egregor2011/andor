@@ -6,9 +6,9 @@ type Option<T> = {
   or: Edge<Option<T>, T>;
 };
 
-export const getAndOr = <T>(graph: Edge<Option<T>, T>): T => {
+export const getEvaluation = <T>(graph: Edge<Option<T>, T>): T => {
   if (typeof graph === "function") {
     return graph();
   }
-  return getAndOr(graph.case ? graph.and : graph.or);
+  return getEvaluation(graph.case ? graph.and : graph.or);
 };
