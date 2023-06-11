@@ -1,5 +1,0 @@
----
-"andor": patch
----
-
-Initial commit
