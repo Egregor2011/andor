@@ -1,5 +1,11 @@
 # andor
 
+## 0.1.1
+
+### Patch Changes
+
+- df25135: Importing the new getCase method
+
 ## 0.1.0
 
 ### Minor Changes
