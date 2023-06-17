@@ -1,5 +1,11 @@
 # andor
 
+## 0.1.0
+
+### Minor Changes
+
+- a2dc96a: Release of the first minor version with 2 methods
+
 ## 0.0.3
 
 ### Patch Changes
