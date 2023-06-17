@@ -1,5 +1,11 @@
 # andor
 
+## 0.1.2
+
+### Patch Changes
+
+- bf7e38d: fixing the import bug
+
 ## 0.1.1
 
 ### Patch Changes
