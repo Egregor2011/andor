@@ -1,7 +1,7 @@
 type Edge<T, I> = T | (() => I);
 
 type Option<T> = {
-  case: boolean;
+  case: unknown;
   and: Edge<Option<T>, T>;
   or: Edge<Option<T>, T>;
 };
