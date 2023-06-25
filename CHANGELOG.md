@@ -1,5 +1,12 @@
 # andor
 
+## 0.1.6
+
+### Patch Changes
+
+- 6e667d9: change the repo name
+- 006dd5c: add repo information
+
 ## 0.1.5
 
 ### Patch Changes
