@@ -75,7 +75,7 @@ const result = getCase({
 });
 ```
 
-Generics are optional, if you'd like to be more specific go ahead with `getCase<Options, Result':
+Generics are optional, if you'd like to be more specific go ahead with `getCase<Options, Result>':
 
 ```ts
 const result = getCase<"True" | "False", "It's true" | "It's false">({
@@ -147,7 +147,7 @@ const userStatus = ((): Status => {
 })();
 ```
 
-You might recall the good old IIFE and come up with a much better construction. However, it can be a bit inconvenient to read in certain edge cases
+You might recall the good old `IIFE` and come up with a much better construction. However, it can be a bit inconvenient to read in certain edge cases
 
 ```ts
 const userStatus = getEvaluation<Status>({
@@ -165,7 +165,7 @@ const userStatus = getEvaluation<Status>({
 });
 ```
 
-The getEvaluation method provides a clear scheme of all possible cases, and the returning functions can have side effects, such as acting as a middleware if necessary.
+The `getEvaluation` method provides a clear scheme of all possible cases, and the returning functions can have side effects, such as acting as a middleware if necessary.
 
 - `getCase`:
   Yet to be written..
