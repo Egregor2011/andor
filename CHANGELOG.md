@@ -1,5 +1,11 @@
 # andor
 
+## 0.1.5
+
+### Patch Changes
+
+- a681307: fixing typos in readme
+
 ## 0.1.4
 
 ### Patch Changes
