@@ -1,6 +1,6 @@
 {
   "name": "@antivixen/andor",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Small (<1kb) library for utilizing type safe and predictable methods to deal with conditional statements.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
